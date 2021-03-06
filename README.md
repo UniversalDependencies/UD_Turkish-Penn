@@ -1,12 +1,12 @@
 # Summary
 
-Turkish version of the Penn Treebank. It consists of a total of 20,000 manually annotated sentences.
+Turkish version of the Penn Treebank. It consists of a total of 10,000 manually annotated sentences.
 (It only includes sentences up to 20 words long.)
 
 
 # Introduction
 
-This treebank includes a totalof 20,000 annotated sentences. We used the corpus of the Penn Treebank by translating its sentences into Turkish language. In our corpus, we kept the sentence length at 20 words long. After the translation, the word tokens are morphologically annotated with a semi-automatic morphological analyzer where the analyzer shows possible derivations for each word and the annotator selects the correct one. The dependency annotation is made manually. During the dependency annotation, we were able to see the original sentences from the Penn Treebank, therefore, we could check and correct the translations according to the original data.
+This treebank includes a totalof 10,000 annotated sentences. We used the corpus of the Penn Treebank by translating its sentences into Turkish language. In our corpus, we kept the sentence length at 20 words long. After the translation, the word tokens are morphologically annotated with a semi-automatic morphological analyzer where the analyzer shows possible derivations for each word and the annotator selects the correct one. The dependency annotation is made manually. During the dependency annotation, we were able to see the original sentences from the Penn Treebank, therefore, we could check and correct the translations according to the original data.
 
 
 # Acknowledgments
