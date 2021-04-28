@@ -1,17 +1,17 @@
 # Summary
 
-Turkish version of the Penn Treebank. It consists of a total of 10,000 manually annotated sentences.
-(It only includes sentences up to 20 words long.)
+Turkish version of the Penn Treebank. It consists of a total of 9560 manually annotated sentences and 87367tokens. (It only includes sentences up to 15 words long.)
 
 
 # Introduction
 
-This treebank includes a totalof 10,000 annotated sentences. We used the corpus of the Penn Treebank by translating its sentences into Turkish language. In our corpus, we kept the sentence length at 20 words long. After the translation, the word tokens are morphologically annotated with a semi-automatic morphological analyzer where the analyzer shows possible derivations for each word and the annotator selects the correct one. The dependency annotation is made manually. During the dependency annotation, we were able to see the original sentences from the Penn Treebank, therefore, we could check and correct the translations according to the original data.
+This treebank includes a total of 9560  annotated sentences. We used the corpus of the Penn Treebank by translating its sentences into Turkish language. In our corpus, we kept the sentence length at 15 words long. After the translation, the word tokens are morphologically annotated with a semi-automatic morphological analyzer. The dependency annotation is made manually. 
+During the dependency annotation, annotators were able to see the original sentences from the Penn Treebank, therefore, they could check and correct the sentences according to the original data.
 
 
 # Acknowledgments
 
-...
+We wish to thank the Starlang Software Organization for funding and supporting this work. 
 
 ## References
 
@@ -32,11 +32,11 @@ Includes text: yes
 Genre: nonfiction news
 Lemmas: converted from manual
 UPOS: converted from manual
-XPOS: manual native
+XPOS: converted from manual
 Features: converted from manual
 Relations: converted from manual
-Contributors: Cesur, Neslihan; Kuzgun, Aslı; Yıldız, Olcay Taner; Marşan, Büşra; Kara, Neslihan; Arıcan, Bilge Nas; Özçelik, Merve; Aslan, Deniz Baran
+Contributors:  Kuzgun, Aslı; Cesur, Neslihan; Yıldız, Olcay Taner; Marşan, Büşra; Kara, Neslihan; Arıcan, Bilge Nas; Özçelik, Merve; Aslan, Deniz Baran
 Contributing: elsewhere
-Contact: asli@starlanyazilim.com
+Contact: asli@starlanyazilim.com / olcay.yildiz@ozyegin.edu.tr 
 ===============================================================================
 </pre>
