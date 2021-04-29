@@ -35,8 +35,8 @@ UPOS: converted from manual
 XPOS: converted from manual
 Features: converted from manual
 Relations: converted from manual
-Contributors:  Kuzgun, Aslı; Cesur, Neslihan; Yıldız, Olcay Taner; Marşan, Büşra; Kara, Neslihan; Arıcan, Bilge Nas; Özçelik, Merve; Aslan, Deniz Baran
+Contributors:  Cesur, Neslihan; Kuzgun, Aslı; Yıldız, Olcay Taner; Marşan, Büşra; Kara, Neslihan; Arıcan, Bilge Nas; Özçelik, Merve; Aslan, Deniz Baran
 Contributing: elsewhere
-Contact: asli@starlanyazilim.com / olcay.yildiz@ozyegin.edu.tr 
+Contact: nesli@starlanyazilim.com / olcay.yildiz@ozyegin.edu.tr 
 ===============================================================================
 </pre>
