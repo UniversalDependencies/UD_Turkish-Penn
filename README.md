@@ -1,6 +1,6 @@
 # Summary
 
-Turkish version of the Penn Treebank. It consists of a total of 9560 manually annotated sentences and 87367tokens. (It only includes sentences up to 15 words long.)
+Turkish version of the Penn Treebank. It consists of a total of 9560 manually annotated sentences and 87367 tokens. (It only includes sentences up to 15 words long.)
 
 
 # Introduction
