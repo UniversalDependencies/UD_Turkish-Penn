@@ -37,6 +37,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors:  Cesur, Neslihan; Kuzgun, Aslı; Yıldız, Olcay Taner; Marşan, Büşra; Kara, Neslihan; Arıcan, Bilge Nas; Özçelik, Merve; Aslan, Deniz Baran
 Contributing: elsewhere
-Contact: nesli@starlangyazilim.com; olcay.yildiz@ozyegin.edu.tr
+Contact: neslihancesur16@gmail.com; olcay.yildiz@ozyegin.edu.tr
 ===============================================================================
 </pre>
