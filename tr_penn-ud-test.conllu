@@ -1574,8 +1574,8 @@
 # sent_id = 15-0131.test
 # text = Gelirler % 5.3 artışla 383.8 milyondan 404.1 milyon Dolar'a çıktı .
 1	Gelirler	gelir	NOUN	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
-2	%	%	NUM	_	NumType=Ord	4	nummod	_	_
-3	5.3	5.3	NUM	_	NumType=Card	2	goeswith	_	_
+2	%	%	NUM	_	NumType=Ord	3	nmod	_	_
+3	5.3	5.3	NUM	_	NumType=Card	4	nummod	_	_
 4	artışla	art	NOUN	_	Case=Ins|Number=Sing|Person=3	10	nmod	_	_
 5	383.8	383.8	NUM	_	NumType=Card	6	nummod	_	_
 6	milyondan	milyon	NOUN	_	Case=Abl|Number=Sing|Person=3	10	obl	_	_
@@ -4594,24 +4594,24 @@
 
 # sent_id = 15-0392.test
 # text = % 8.65 , 30 gün ; % 8.55 , 60 gün ; % 8.55 , 90 gün .
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	8.65	8.65	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	8.65	8.65	NUM	_	NumType=Card	5	list	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	30	30	NUM	_	NumType=Card	5	nummod	_	_
-5	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	5	punct	_	_
-7	%	%	NUM	_	NumType=Ord	13	parataxis	_	_
-8	8.55	8.55	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	8.55	8.55	NUM	_	NumType=Card	11	list	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	60	60	NUM	_	NumType=Card	11	nummod	_	_
-11	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	17	parataxis	_	_
 12	;	;	PUNCT	_	_	11	punct	_	_
-13	%	%	NUM	_	NumType=Ord	0	root	_	_
-14	8.55	8.55	NUM	_	NumType=Card	13	goeswith	_	_
+13	%	%	NUM	_	NumType=Ord	14	nmod	_	_
+14	8.55	8.55	NUM	_	NumType=Card	17	list	_	_
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	90	90	NUM	_	NumType=Card	17	nummod	_	_
-17	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	13	list	_	_
-18	.	.	PUNCT	_	_	13	punct	_	_
+17	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 15-0393.test
 # text = Mevduat BONOLARI :
@@ -4637,23 +4637,23 @@
 
 # sent_id = 15-0396.test
 # text = % 8.65 , 1 ay ; % 8.65 , 3 ay ; % 8.55 , 6 ay
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	8.65	8.65	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	8.65	8.65	NUM	_	NumType=Card	5	list	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	1	1	NUM	_	NumType=Card	5	nummod	_	_
-5	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	5	punct	_	_
-7	%	%	NUM	_	NumType=Ord	13	parataxis	_	_
-8	8.65	8.65	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	8.65	8.65	NUM	_	NumType=Card	11	list	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	3	3	NUM	_	NumType=Card	11	nummod	_	_
-11	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	17	parataxis	_	_
 12	;	;	PUNCT	_	_	13	punct	_	_
-13	%	%	NUM	_	NumType=Ord	0	root	_	_
-14	8.55	8.55	NUM	_	NumType=Card	13	goeswith	_	_
-15	,	,	PUNCT	_	_	13	punct	_	_
+13	%	%	NUM	_	NumType=Ord	14	nmod	_	_
+14	8.55	8.55	NUM	_	NumType=Card	17	list	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	6	6	NUM	_	NumType=Card	17	nummod	_	_
-17	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	13	list	_	_
+17	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = 15-0397.test
 # text = BANKA KABUL KREDİLERİ :
@@ -4733,17 +4733,17 @@
 
 # sent_id = 15-0404.test
 # text = % 7.63 - 13 hafta ; % 7.60 - 26 hafta .
-1	%	%	NUM	_	NumType=Ord	7	parataxis	_	_
-2	7.63	7.63	NUM	_	NumType=Card	1	goeswith	_	_
+1	%	%	NUM	_	NumType=Ord	2	nmod	_	_
+2	7.63	7.63	NUM	_	NumType=Card	5	list	_	_
 3	-	-	PUNCT	_	_	5	punct	_	_
 4	13	13	NUM	_	NumType=Card	5	nummod	_	_
-5	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	1	list	_	_
+5	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	11	parataxis	_	_
 6	;	;	PUNCT	_	_	7	punct	_	_
-7	%	%	NUM	_	NumType=Ord	0	root	_	_
-8	7.60	7.6	NUM	_	NumType=Card	7	goeswith	_	_
+7	%	%	NUM	_	NumType=Ord	8	nmod	_	_
+8	7.60	7.6	NUM	_	NumType=Card	11	list	_	_
 9	-	-	PUNCT	_	_	11	punct	_	_
 10	26	26	NUM	_	NumType=Card	11	nummod	_	_
-11	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	7	list	_	_
+11	hafta	hafta	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 15-0405.test
@@ -6880,8 +6880,8 @@
 
 # sent_id = 20-0038.test
 # text = 1987 de plastik fiyatları fırladığında Quantum Chemical Corp. duruma uyum sağladı .
-1	1987	1987	NUM	_	NumType=Card	5	obl	_	_
-2	de	de	CCONJ	_	_	1	goeswith	_	_
+1	1987	1987	NUM	_	NumType=Card|Typo=Yes	5	obl	_	_
+2	de	_	X	_	_	1	goeswith	_	_
 3	plastik	plastik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod	_	_
 4	fiyatları	fiyat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
 5	fırladığında	fırla	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
