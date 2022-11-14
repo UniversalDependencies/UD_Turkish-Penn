@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
 Evaluating the following revision of UD_Turkish-Penn:
-commit 864aaaacb851d8be79071eae8fbc0583810d6896
-Merge: 513f32f bda6180
+commit 8c3536ccd954f07eee6911813a3115f240b66063
+Merge: 91333f0 beea2ea
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 183555 of 183555 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.4250287002115.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 117774 out of 183555 total words have one or more features.
+Features: 117775 out of 183555 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
