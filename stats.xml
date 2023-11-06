@@ -10,25 +10,25 @@
     <dev><sentences>622</sentences><tokens>6994</tokens><words>6994</words><fused>0</fused></dev>
     <test><sentences>924</sentences><tokens>10047</tokens><words>10047</words><fused>0</fused></test>
   </size>
-  <lemmas unique="14637" /><!-- ., ,, bir, ol, ve, bu, ", et, için, de, dolar, bay, daha, hisse, söyle -->
-  <forms unique="35179" /><!-- ., ,, bir, ve, ", bu, için, bay, daha, olarak, %, milyon, '', söyledi, de -->
+  <lemmas unique="14631" /><!-- ., ,, bir, ol, ve, bu, ", et, için, de, dolar, bay, daha, hisse, söyle -->
+  <forms unique="35175" /><!-- ., ,, bir, ve, ", bu, için, bay, daha, olarak, %, milyon, '', söyledi, de -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">19637</tag><!-- ol, büyük, yeni, diğer, son, et, var, yaklaşık, iyi, yüksek -->
+    <tag name="ADJ">19643</tag><!-- ol, büyük, yeni, diğer, son, et, var, yaklaşık, iyi, yüksek -->
     <tag name="ADP">3597</tag><!-- için, kadar, gibi, göre, yönelik, ile, diye, sonra, rağmen, boyunca -->
-    <tag name="ADV">9966</tag><!-- daha, ol, en, çok, ancak, ayrıca, sonra, tarafından, sadece, art -->
-    <tag name="AUX">545</tag><!-- değil, mi -->
+    <tag name="ADV">9969</tag><!-- daha, ol, en, çok, ancak, ayrıca, sonra, tarafından, sadece, art -->
+    <tag name="AUX">546</tag><!-- değil, mi -->
     <tag name="CCONJ">5883</tag><!-- ve, da, de, ama, ancak, ile, veya, hem, ya, ila -->
     <tag name="DET">6781</tag><!-- bir, bu, her, bazı, birçok, tüm, o, birkaç, hiçbir, şu -->
     <tag name="INTJ">57</tag><!-- of, a, hadi, tabi, ah, e, yazık, aaa, vay, ya -->
-    <tag name="NOUN">66726</tag><!-- bay, dolar, hisse, ol, şirket, yıl, piyasa, fiyat, et, iş -->
+    <tag name="NOUN">66720</tag><!-- bay, dolar, hisse, ol, şirket, yıl, piyasa, fiyat, et, iş -->
     <tag name="NUM">8499</tag><!-- %, milyon, milyar, iki, bir, 1, 10, üç, 3, 30 -->
     <tag name="PRON">2411</tag><!-- bu, o, kendi, ben, biri, ne, biz, bazı, çoğu, hepsi -->
-    <tag name="PROPN">15558</tag><!-- abd, new, york, corp., co., dow, japonya, jones, ınc., wall -->
+    <tag name="PROPN">15557</tag><!-- abd, new, york, corp., co., dow, japonya, jones, ınc., wall -->
     <tag name="PUNCT">27427</tag><!-- ., ,, ", '', ``, :, ?, ), (, ; -->
     <tag name="SCONJ">157</tag><!-- ki, eğer -->
-    <tag name="VERB">15988</tag><!-- et, ol, söyle, de, yap, al, yüksel, gel, ver, düş -->
+    <tag name="VERB">15985</tag><!-- et, ol, söyle, de, yap, al, yüksel, gel, ver, düş -->
     <tag name="X">323</tag><!-- _, %15, %9, tefek, %8, %2, %5, %7.875, %1, %10 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -36,13 +36,13 @@
     <feat name="Aspect" value="Hab" upos="VERB">1184</feat><!-- olabilir, eder, olursa, edebilir, olur, gerekir, içerir, dayanır, kıyaslanır, sanırım -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">9237</feat><!-- söyledi, dedi, oldu, yükseldi, etti, düştü, kapandı, geldi, çıktı, aldı -->
     <feat name="Aspect" value="Prog" upos="VERB">3972</feat><!-- ediyor, diyor, söylüyor, bekleniyor, veriyor, gösteriyor, yapıyor, oluyor, düşünüyor, geliyor -->
-    <feat name="Case" value="Abl" upos="NOUN,PROPN">2751</feat><!-- dolardan, tarafından, milyondan, milyardan, azından, seviyesinden, Doları'ndan, üzerinden, açısından, ortadan -->
-    <feat name="Case" value="Acc" upos="NOUN,PROPN">6427</feat><!-- olduğunu, olacağını, olmadığını, yapmayı, ettiğini, gerektiğini, günü, fiyatları, doları, hisselerini -->
-    <feat name="Case" value="Dat" upos="NOUN,PROPN">5906</feat><!-- dolara, başına, sona, seviyesine, Doları'na, ortaya, hale, işe, hisseye, yıla -->
+    <feat name="Case" value="Abl" upos="NOUN,PROPN">2748</feat><!-- dolardan, tarafından, milyondan, milyardan, azından, seviyesinden, Doları'ndan, üzerinden, açısından, ortadan -->
+    <feat name="Case" value="Acc" upos="NOUN,PROPN">6429</feat><!-- olduğunu, olacağını, olmadığını, yapmayı, ettiğini, gerektiğini, günü, fiyatları, doları, hisselerini -->
+    <feat name="Case" value="Dat" upos="NOUN,PROPN">5907</feat><!-- dolara, başına, sona, seviyesine, Doları'na, ortaya, hale, işe, hisseye, yıla -->
     <feat name="Case" value="Gen" upos="NOUN,PROPN">5926</feat><!-- şirketin, yılın, yatırımcıların, piyasanın, şirketlerin, yılının, Japonya'nın, hükümetin, dünyanın, şirketinin -->
-    <feat name="Case" value="Ins" upos="NOUN,PROPN">945</feat><!-- artışla, düşüşle, itibariyle, nedenle, yükselişle, oranla, anlamıyla, hisseyle, deyişle, zamanla -->
-    <feat name="Case" value="Loc" upos="NOUN,PROPN">5669</feat><!-- şekilde, arasında, konusunda, ayında, altında, anda, yılında, durumda, zamanda, ölçüde -->
-    <feat name="Case" value="Nom" upos="AUX,NOUN,PROPN">54341</feat><!-- bay, hisse, dolar, yıl, şirket, satın, devam, New, ABD, gelir -->
+    <feat name="Case" value="Ins" upos="NOUN,PROPN">944</feat><!-- artışla, düşüşle, itibariyle, nedenle, yükselişle, oranla, anlamıyla, hisseyle, deyişle, zamanla -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN">5670</feat><!-- şekilde, arasında, konusunda, ayında, altında, anda, yılında, durumda, zamanda, ölçüde -->
+    <feat name="Case" value="Nom" upos="AUX,NOUN,PROPN">54334</feat><!-- bay, hisse, dolar, yıl, şirket, satın, devam, New, ABD, gelir -->
     <feat name="Definite" value="Def" upos="DET">2095</feat><!-- bu, her, o, şu, herhangi -->
     <feat name="Definite" value="Ind" upos="DET">4169</feat><!-- bir, bazı, birkaç, BİR, Bİr, birçok, hedef -->
     <feat name="Degree" value="Cmp" upos="ADV">1037</feat><!-- daha, dağa -->
@@ -56,26 +56,26 @@
     <feat name="Mood" value="Gen" upos="AUX,VERB">1665</feat><!-- değildir, sahiptir, vardır, eder, şirketidir, biridir, dolardır, olur, nedir, gerekir -->
     <feat name="Mood" value="GenNec" upos="VERB">49</feat><!-- olmalıdır, yapmalıdır, etmelidir, getirmelidir, kaldırmalıdır, onaylamalıdır, yapılmalıdır, almalıdır, alınmalıdır, açıklıyor -->
     <feat name="Mood" value="GenPot" upos="VERB">560</feat><!-- olabilir, edebilir, olabilirdi, olmayabilir, edilebilir, getirebilir, alabilir, olamaz, verebilir, gelebilir -->
-    <feat name="Mood" value="Imp" upos="VERB">279</feat><!-- olsun, kıyasla, dile, dönüş, et, al, git, bekleyin, düşünün, edin -->
+    <feat name="Mood" value="Imp" upos="VERB">276</feat><!-- olsun, kıyasla, dile, dönüş, et, al, git, bekleyin, düşünün, edin -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">12912</feat><!-- söyledi, dedi, ediyor, oldu, yükseldi, etti, diyor, düştü, kapandı, geldi -->
     <feat name="Mood" value="Nec" upos="VERB">78</feat><!-- olmalı, etmeli, edilmeliydi, etmeliyiz, gitmeli, incelemeliyiz, olmalılar, olmalıydı, almalı, anlamalıyız -->
     <feat name="Mood" value="Opt" upos="VERB">36</feat><!-- gide, olayım, satışa, Ola, Yaka, alalım, anlayalım, açıklayalım, bata, denemeyelim -->
     <feat name="Mood" value="Pot" upos="VERB">165</feat><!-- ulaşılamadı, alamadı, ulaşamadık, yapamadı, alabiliyor, bulamadı, bulunamadı, edebiliyor, edemedi, edemiyor -->
-    <feat name="Number" value="Plur" upos="AUX,NOUN,PROPN,VERB">13059</feat><!-- kıymetler, fiyatları, hisseleri, satışlar, yatırımcılar, analistler, tahviller, şirketler, satışları, tahvilleri -->
-    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">85120</feat><!-- bay, söyledi, hisse, dolar, yıl, dedi, şirket, olduğunu, şekilde, ediyor -->
-    <feat name="Number[psor]" value="Plur" upos="NOUN,PROPN,VERB">1019</feat><!-- fiyatları, hisseleri, koşulları, yetkilileri, Doları'ydı, oranları, tahvilleri, hizmetleri, ihtiyacımız, kazançlarını -->
-    <feat name="Number[psor]" value="Sing" upos="AUX,NOUN,PROPN,VERB">21370</feat><!-- olduğunu, arasında, konusunda, senedi, günü, başına, tarafından, ayında, endeksi, doları -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PROPN,VERB">13061</feat><!-- kıymetler, fiyatları, hisseleri, satışlar, yatırımcılar, analistler, tahviller, şirketler, satışları, tahvilleri -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">85108</feat><!-- bay, söyledi, hisse, dolar, yıl, dedi, şirket, olduğunu, şekilde, ediyor -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN,PROPN,VERB">1020</feat><!-- fiyatları, hisseleri, koşulları, yetkilileri, Doları'ydı, oranları, tahvilleri, hizmetleri, ihtiyacımız, kazançlarını -->
+    <feat name="Number[psor]" value="Sing" upos="AUX,NOUN,PROPN,VERB">21365</feat><!-- olduğunu, arasında, konusunda, senedi, günü, başına, ayında, tarafından, endeksi, doları -->
     <feat name="NumType" value="Card" upos="ADJ,NUM">7641</feat><!-- milyon, milyar, iki, bir, 1, 10, üç, 30, 2, 3 -->
     <feat name="NumType" value="Dist" upos="ADJ">3</feat><!-- birer -->
     <feat name="NumType" value="Ord" upos="ADJ,NUM">987</feat><!-- %, üçüncü, ikinci, 3., dördüncü, birinci, İkinci, 13., 2., altıncı -->
     <feat name="Person" value="1" upos="AUX,VERB">762</feat><!-- düşünüyorum, istiyoruz, sanmıyorum, sanırım, ediyoruz, yaptık, düşünüyoruz, bilmiyorum, değiliz, düşündüm -->
-    <feat name="Person" value="2" upos="VERB">387</feat><!-- kıyasla, biliyorsun, dile, dönüş, et, al, git, bekleyin, diyebilirsiniz, düşünün -->
-    <feat name="Person" value="3" upos="AUX,NOUN,VERB">81735</feat><!-- bay, söyledi, hisse, dolar, yıl, dedi, şirket, olduğunu, şekilde, ediyor -->
+    <feat name="Person" value="2" upos="VERB">384</feat><!-- kıyasla, biliyorsun, dile, dönüş, et, al, git, bekleyin, diyebilirsiniz, düşünün -->
+    <feat name="Person" value="3" upos="AUX,NOUN,VERB">81729</feat><!-- bay, söyledi, hisse, dolar, yıl, dedi, şirket, olduğunu, şekilde, ediyor -->
     <feat name="Person[psor]" value="1" upos="AUX,NOUN,VERB">407</feat><!-- benim, bizim, değilim, satım, toplam, alım, devam, ihtiyacımız, olduğum, IMA -->
     <feat name="Person[psor]" value="2" upos="AUX,NOUN,VERB">788</feat><!-- üzerinde, üzerinden, altında, tarafından, azından, satın, yılının, üzerine, içinde, süren -->
-    <feat name="Person[psor]" value="3" upos="NOUN,VERB">21093</feat><!-- olduğunu, arasında, konusunda, senedi, günü, başına, ayında, tarafından, hisseleri, endeksi -->
+    <feat name="Person[psor]" value="3" upos="NOUN,VERB">21089</feat><!-- olduğunu, arasında, konusunda, senedi, günü, başına, ayında, tarafından, hisseleri, endeksi -->
     <feat name="Polarity" value="Neg" upos="VERB">1284</feat><!-- açıklanmadı, ulaşılamadı, yapmadı, değişmedi, etmedi, olmayacak, söylemedi, vermedi, sanmıyorum, beklemiyor -->
-    <feat name="Polarity" value="Pos" upos="VERB">13054</feat><!-- söyledi, dedi, ediyor, oldu, etti, yükseldi, diyor, düştü, kapandı, geldi -->
+    <feat name="Polarity" value="Pos" upos="VERB">13050</feat><!-- söyledi, dedi, ediyor, oldu, etti, yükseldi, diyor, düştü, kapandı, geldi -->
     <feat name="PronType" value="Art" upos="DET">6781</feat><!-- bir, bu, her, bazı, birçok, tüm, o, birkaç, hiçbir, şu -->
     <feat name="PronType" value="Dem" upos="PRON">980</feat><!-- bu, bunu, bunun, buna, bununla, onlar, bunlar, onun, onların, bunların -->
     <feat name="PronType" value="Ind" upos="ADV,PRON">341</feat><!-- biri, bazıları, hepsi, çoğu, kimse, herkes, çoğunu, hepimiz, hep, çoğunun -->
@@ -86,23 +86,23 @@
     <feat name="Reflex" value="Yes" upos="PRON">314</feat><!-- kendi, kendisi, kendini, kendilerini, kendine, kendisini, kendisinin, kendisine, kendilerine, kendileri -->
     <feat name="Tense" value="Fut" upos="VERB">822</feat><!-- olacak, edecek, olacaktır, başlayacak, alacak, olmayacak, kalacak, gelecek, yapacak, ödeyecek -->
     <feat name="Tense" value="Past" upos="AUX,VERB">8106</feat><!-- söyledi, dedi, oldu, yükseldi, etti, düştü, kapandı, geldi, çıktı, aldı -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">7216</feat><!-- ediyor, diyor, söylüyor, olabilir, değildir, bekleniyor, veriyor, gösteriyor, yapıyor, oluyor -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">7213</feat><!-- ediyor, diyor, söylüyor, olabilir, değildir, bekleniyor, veriyor, gösteriyor, yapıyor, oluyor -->
     <feat name="Typo" value="Yes" upos="ADV,DET,NOUN,NUM,PROPN">46</feat><!-- bir, uluslar, $', Provigo, %, 1/2, 10, 1987, 2117.1, 215.48 -->
     <feat name="VerbForm" value="Conv" upos="VERB">8</feat><!-- arayışındalar, dönüştü, değişti, düşüşündedir, oluştu, yükseliştedir -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">15961</feat><!-- söyledi, dedi, ediyor, oldu, yükseldi, etti, diyor, düştü, kapandı, geldi -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">15958</feat><!-- söyledi, dedi, ediyor, oldu, yükseldi, etti, diyor, düştü, kapandı, geldi -->
     <feat name="VerbForm" value="Part" upos="VERB">23</feat><!-- olduğudur, Gördüğünüz, Sunduğunuz, alacağımızdır, bahsetmediğinizdir, dolaşacağıdır, dönüştürülebileceğidir, düşündüğüdür, etkilenenlerdi, ettiğidir -->
     <feat name="VerbForm" value="Vnoun" upos="VERB">109</feat><!-- olmasıdır, danışmanlar, demektir, sağlamaktır, almaktır, bulmaktır, sözleşmeydi, Faturalandırmalar, almadır, almaktı -->
-    <feat name="Voice" value="Cau" upos="VERB">561</feat><!-- bildirdi, gerektiriyor, yükseltti, üretiyor, oluşturuyor, oluşturdu, yansıtıyor, çıkarıyor, oluşturmaktadır, geliştirdi -->
+    <feat name="Voice" value="Cau" upos="VERB">562</feat><!-- bildirdi, gerektiriyor, yükseltti, üretiyor, oluşturuyor, oluşturdu, yansıtıyor, çıkarıyor, oluşturmaktadır, geliştirdi -->
     <feat name="Voice" value="CauPass" upos="VERB">117</feat><!-- gerçekleştirildi, çıkarıldı, değerlendirilmektedir, sınıflandırıldı, adlandırıldı, adlandırılıyor, ağırlıklandırılmıştır, derecelendirildi, değiştirildi, durduruldu -->
-    <feat name="Voice" value="Pass" upos="VERB">1386</feat><!-- edildi, bekleniyor, açıklanmadı, ulaşılamadı, bulundu, ediliyor, açıldı, seçildi, alındı, verildi -->
+    <feat name="Voice" value="Pass" upos="VERB">1388</feat><!-- edildi, bekleniyor, açıklanmadı, ulaşılamadı, bulundu, ediliyor, açıldı, seçildi, alındı, verildi -->
     <feat name="Voice" value="Rcp" upos="VERB">37</feat><!-- dönüştü, artış, karıştırıyor, satış, satışa, sıkılaştırıyor, uçuş, Anlaşma, değişmedi, dolaştıracak -->
     <feat name="Voice" value="Rfl" upos="VERB">15</feat><!-- uyarlandı, dendi, denebilir, denebilirdi, denemez, denir, deniyordu, sabitlendi, uyarlanmadı, uyarlanır -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
+  <deps unique="36">
     <dep name="acl">3138</dep>
     <dep name="advcl">2796</dep>
-    <dep name="advmod">8229</dep>
+    <dep name="advmod">8228</dep>
     <dep name="amod">14259</dep>
     <dep name="appos">554</dep>
     <dep name="aux">526</dep>
@@ -114,21 +114,22 @@
     <dep name="conj">3576</dep>
     <dep name="csubj">434</dep>
     <dep name="dep">43</dep>
-    <dep name="det">6303</dep>
+    <dep name="det">6304</dep>
     <dep name="discourse">1103</dep>
     <dep name="dislocated">7</dep>
-    <dep name="fixed">213</dep>
-    <dep name="flat">4254</dep>
+    <dep name="fixed">200</dep>
+    <dep name="flat">4266</dep>
     <dep name="goeswith">46</dep>
     <dep name="iobj">30</dep>
     <dep name="list">352</dep>
     <dep name="mark">904</dep>
-    <dep name="nmod">28837</dep>
-    <dep name="nsubj">16244</dep>
-    <dep name="nsubj:outer">2</dep>
+    <dep name="nmod">28838</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">16242</dep>
+    <dep name="nsubj:outer">4</dep>
     <dep name="nummod">6793</dep>
     <dep name="obj">8605</dep>
-    <dep name="obl">11221</dep>
+    <dep name="obl">11220</dep>
     <dep name="orphan">1</dep>
     <dep name="parataxis">708</dep>
     <dep name="punct">27427</dep>
